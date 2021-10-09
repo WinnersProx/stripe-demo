@@ -49,6 +49,7 @@ const processSubscription = () => {
     .catch((err) => alert("Something went wrong!"));
 };
 
+
 const redirectUser = (url) => {
   window.location = url;
 };
